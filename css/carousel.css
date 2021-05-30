@@ -1,0 +1,29 @@
+.carousel-box {
+    perspective: 1000px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.carousel-face {
+    transform-style: preserve-3d;
+    transform: rotateY(30deg);
+    box-shadow: rgb(54, 54, 54) -8px 2px 15px;
+    transition: 0.5s ease-in-out ;
+}
+
+.carousel-face:hover {
+    transform: rotateX(0deg) scale(1);
+}
+
+.carousel-face1 {
+    margin-right: 10px ;
+    transform-style: preserve-3d;
+    transform: rotateY(-30deg);
+    box-shadow: rgb(54, 54, 54) 8px 2px 15px;
+    transition: 0.5s ease-in-out ;
+
+}
+
+.carousel-face1:hover {
+    transform: rotateX(0deg) scale(1);
+}
